@@ -1,12 +1,12 @@
 ipywidgets
 notebook
-ensure
+ensure         # to check an argument passed is correct or not.
 py-youtube
 
 # dev requirements
 pytest
 tox
-black
-flake8
-mypy
+black    #formating_purposes
+flake8   # linting(finding errors)
+mypy     #type error
 -e .
