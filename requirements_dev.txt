@@ -9,4 +9,4 @@ tox
 black    #formating_purposes
 flake8   # linting(finding errors)
 mypy     #type error
--e .
+-e .     # check in setup.py and installs local packages.
