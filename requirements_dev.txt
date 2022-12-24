@@ -1,12 +1,12 @@
-ipywidgets
-notebook
-ensure         # to check an argument passed is correct or not.
-py-youtube
+ipywidgets = 8.0.4
+notebook = 6.5.2
+ensure = 1.0.2        # to check an argument passed is correct or not.
+py-youtube =1.1.7
 
 # dev requirements
-pytest
-tox
-black    #formating_purposes
-flake8   # linting(finding errors)
-mypy     #type error
+pytest =7.2.0
+tox = 4.0.16
+black=22.12.0    #formating_purposes
+flake8 = 6.0.0  # linting(finding errors)
+mypy=0.991     #type error
 -e .     # check in setup.py and installs local packages.
